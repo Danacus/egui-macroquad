@@ -19,7 +19,7 @@ include = [
 
 [dependencies]
 egui = "0.17.0"
-egui-miniquad = "0.9.0"
+egui-miniquad = { git = "https://github.com/Danacus/egui-miniquad" }
 macroquad = { version = "0.3.6", default-features = false }
 
 [dev-dependencies]
